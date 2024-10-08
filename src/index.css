@@ -283,6 +283,7 @@ a:visited {
 .mainContainer {
   width: 100%;
   position: relative;
+  max-width: 1400px;
 }
 
 .heroSection {
