@@ -55,7 +55,7 @@ function HeroProjectSlider({ projectList }) {
         </>
       ) : (
         projectList.map((project) => (
-          <div className="keen-slider__slide projectSlides">
+          <div className="keen-slider__slide projectSlides" key={project.id}>
             <Link
               to={project.liveURL}
               className="projectImgHome"

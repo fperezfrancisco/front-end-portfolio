@@ -8,7 +8,7 @@ function Modal({ openModal, currentProject }) {
 
   return (
     <div className="modal projectModal flex flex-col">
-      <i class="bx bx-x" onClick={handleClose}></i>
+      <i className="bx bx-x" onClick={handleClose}></i>
       <div className="projectModalHeader flex flex-col">
         <div className="projectPreviewBox">
           <img

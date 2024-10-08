@@ -1,11 +1,8 @@
-import libraryPrimary from "../public/library-screenshot.png";
-import libraryLong from "../public/library-long.png";
-
 const data = [
   {
     id: 1,
     projectTitle: "Disney Plus Clone",
-    primaryImg: "/disney-clone-wide.png",
+    primaryImg: "./disney-clone-wide.png",
     wideImg: "./disney-clone-wide.png",
     squareImg: "./disney-square.png",
     detailsPara: `This project is a fully responsive web application replicating the design and functionality of the official Disney Plus platform. Built using React.js and Tailwind CSS, it dynamically fetches and displays movie and TV show selections using The Movie Database (TMDb) API. Users can browse a vast array of titles, select a movie to view detailed information, and discover 20 recommended and 10 similar movies based on their choices. The app is structured to provide a seamless user experience, from smooth navigation to visually appealing design, with all code managed through GitHub.`,
@@ -16,7 +13,7 @@ const data = [
   {
     id: 2,
     projectTitle: "Library Ecommerce",
-    primaryImg: "/library-screenshot.png",
+    primaryImg: "./library-screenshot.png",
     wideImg: "./library-screenshot.png",
     squareImg: "./library-long.png",
     detailsPara:
@@ -28,7 +25,7 @@ const data = [
   {
     id: 3,
     projectTitle: "Movie Search API",
-    primaryImg: "/movie-search-wide.png",
+    primaryImg: "./movie-search-wide.png",
     wideImg: "./movie-search-wide.png",
     squareImg: "./movie-search-preview.png",
     detailsPara:
@@ -40,7 +37,7 @@ const data = [
   {
     id: 4,
     projectTitle: "Trilogy Soccer Website",
-    primaryImg: "/trilogy-wide.png",
+    primaryImg: "./trilogy-wide.png",
     wideImg: "./trilogy-wide.png",
     squareImg: "./trilogy-square.png",
     detailsPara:
@@ -52,7 +49,7 @@ const data = [
   {
     id: 5,
     projectTitle: "Wordle Clone",
-    primaryImg: "/wordle-wide.png",
+    primaryImg: "./wordle-wide.png",
     wideImg: "./wordle-wide.png",
     squareImg: "./wordle-long.png",
     detailsPara:
@@ -64,7 +61,7 @@ const data = [
   {
     id: 6,
     projectTitle: "Superior Plumbing Website",
-    primaryImg: "/plumbing-wide.png",
+    primaryImg: "./plumbing-wide.png",
     wideImg: "./plumbing-wide.png",
     squareImg: "./plumbing-square.png",
     detailsPara:

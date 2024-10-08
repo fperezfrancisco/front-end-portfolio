@@ -52,6 +52,7 @@ function ProjectsPage({ projects }) {
             <div className="innerProjectsContainer flex">
               {projectsList.map((project) => (
                 <ProjectBox
+                  key={project.id}
                   projectName={project.projectTitle}
                   liveLink={project.liveURL}
                   githubLink={project.githubURL}

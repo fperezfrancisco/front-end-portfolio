@@ -25,15 +25,12 @@ function ProjectBox({
     return;
   };
 
-  console.log(imgSquare);
-  console.log(imgPrimary);
-
   return (
     <div className="projectBox flex flex-col">
       <div className="projectPreviewBox" onClick={handlePreview}>
         <img src={imgSquare} alt="" className="projectPreviewImg" />
         <div className="overlay"></div>
-        <i class="bx bx-show"></i>
+        <i className="bx bx-show"></i>
       </div>
       <div className="projectDetails flex flex-col">
         <h3 className="projectTitle">{projectName}</h3>

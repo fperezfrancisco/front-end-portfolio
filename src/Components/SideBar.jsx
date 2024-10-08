@@ -5,13 +5,10 @@ function SideBar() {
   const [fullView, setFullView] = useState(true);
 
   function handleClick() {
-    console.log(fullView);
     setFullView(!fullView);
   }
 
-  useEffect(() => {
-    console.log(fullView);
-  }, [fullView]);
+  useEffect(() => {}, [fullView]);
 
   return (
     <div className="sideBar bentoBox w-full h-full max-h-[100vh] min-h-[600px] lg:w-[300px] flex flex-col p-4">
@@ -39,7 +36,7 @@ function SideBar() {
         <ul className="infoList">
           <li className="infoLi">
             <span className="iconContainer">
-              <i class="bx bxs-envelope"></i>
+              <i className="bx bxs-envelope"></i>
             </span>
             <span className="infoBox">
               <p className="infoHeading">Email</p>
@@ -50,7 +47,7 @@ function SideBar() {
           </li>
           <li className="infoLi">
             <span className="iconContainer">
-              <i class="bx bxs-phone"></i>
+              <i className="bx bxs-phone"></i>
             </span>
             <span className="infoBox">
               <p className="infoHeading">Phone</p>
@@ -61,7 +58,7 @@ function SideBar() {
           </li>
           <li className="infoLi">
             <span className="iconContainer">
-              <i class="bx bxs-calendar"></i>
+              <i className="bx bxs-calendar"></i>
             </span>
             <span className="infoBox">
               <p className="infoHeading">Date of Birth</p>
@@ -72,7 +69,7 @@ function SideBar() {
           </li>
           <li className="infoLi">
             <span className="iconContainer">
-              <i class="bx bxs-school"></i>
+              <i className="bx bxs-school"></i>
             </span>
             <span className="infoBox">
               <p className="infoHeading">Education</p>
@@ -83,7 +80,7 @@ function SideBar() {
           </li>
           <li className="infoLi">
             <span className="iconContainer">
-              <i class="bx bxs-location-plus"></i>
+              <i className="bx bxs-location-plus"></i>
             </span>
             <span className="infoBox">
               <p className="infoHeading">Location</p>
@@ -96,17 +93,17 @@ function SideBar() {
         <ul className="socialsList flex noList">
           <li className="socialLi">
             <a href="#" className="socialLink">
-              <i class="bx bxl-github"></i>
+              <i className="bx bxl-github"></i>
             </a>
           </li>
           <li className="socialLi">
             <a href="#" className="socialLink">
-              <i class="bx bxl-linkedin-square"></i>
+              <i className="bx bxl-linkedin-square"></i>
             </a>
           </li>
           <li className="socialLi">
             <a href="#" className="socialLink">
-              <i class="bx bxl-instagram-alt"></i>
+              <i className="bx bxl-instagram-alt"></i>
             </a>
           </li>
         </ul>

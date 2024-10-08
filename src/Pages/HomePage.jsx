@@ -5,9 +5,7 @@ import HeroSection from "../Components/HeroSection";
 import MobileNav from "../Components/MobileNav";
 import DesktopNav from "../Components/DesktopNav";
 import ProjectBoxHome from "../Components/ProjectBoxHome";
-import disneyCloneImg from "../assets/disney-clone-wide.png";
-import lynxImg from "../assets/lynx-home.png";
-import weddingImg from "../assets/wedding-landing-page.png";
+
 import data from "../Data";
 import HeroProjectSlider from "../Components/HeroProjectSlider";
 import NextIcon from "../assets/nextjs-icon-svgrepo-com.svg";
@@ -116,35 +114,35 @@ function HomePage() {
             <h2 className="homeSubtitle">Skills & Tools</h2>
             <div className="flex skillsBoxHome">
               <div className="skillBox flex">
-                <i class="bx bxl-html5"></i>
+                <i className="bx bxl-html5"></i>
                 <p className="skillText">Html</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-css3"></i>
+                <i className="bx bxl-css3"></i>
                 <p className="skillText">Css</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-javascript"></i>
+                <i className="bx bxl-javascript"></i>
                 <p className="skillText">Javascript</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-tailwind-css"></i>
+                <i className="bx bxl-tailwind-css"></i>
                 <p className="skillText">Tailwind Css</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-react"></i>
+                <i className="bx bxl-react"></i>
                 <p className="skillText">React</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-typescript"></i>
+                <i className="bx bxl-typescript"></i>
                 <p className="skillText">Typescript</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-firebase"></i>
+                <i className="bx bxl-firebase"></i>
                 <p className="skillText">Firebase V9</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-mongodb"></i>
+                <i className="bx bxl-mongodb"></i>
                 <p className="skillText">Mongo Db</p>
               </div>
               <div className="skillBox flex">
@@ -152,15 +150,15 @@ function HomePage() {
                 <p className="skillText">Next Js</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-nodejs"></i>
+                <i className="bx bxl-nodejs"></i>
                 <p className="skillText">Node Js</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-github"></i>
+                <i className="bx bxl-github"></i>
                 <p className="skillText">Github</p>
               </div>
               <div className="skillBox flex">
-                <i class="bx bxl-figma"></i>
+                <i className="bx bxl-figma"></i>
                 <p className="skillText">Figma</p>
               </div>
             </div>

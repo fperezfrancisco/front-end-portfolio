@@ -1,5 +1,5 @@
 import React from "react";
-import disneyCloneImg from "../assets/disney-clone-wide.png";
+
 import { Link } from "react-router-dom";
 
 function ProjectBoxHome({ name, img, liveLink }) {
