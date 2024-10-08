@@ -899,6 +899,36 @@ a:visited {
   color: var(--dark-grey-text);
 }
 
+/* about experience */
+
+.experienceContainer {
+  gap: 0rem;
+  padding-left: 1rem;
+}
+
+.experienceSubtitle {
+  margin: 1rem 0rem 0.25rem;
+  line-height: 1.25;
+}
+
+.experienceSecondTitle {
+  margin: 0rem;
+  color: var(--dark-grey-text);
+  font-style: italic;
+}
+
+.experienceList {
+  list-style-type: circle !important;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.experienceList li {
+  display: list-item;
+}
+
 @media only screen and (max-width: 375px) {
   .mobileNav .navList {
     column-gap: 0.75rem;

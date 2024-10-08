@@ -40,6 +40,58 @@ function AboutPage() {
               innovative teams to make an impact in the software industry.
             </p>
           </section>
+          <section className="sectionCopy flex flex-col">
+            <div className="pageTitleBox">
+              <h2 className="pageTitle">Experience</h2>
+            </div>
+            <div className="experienceContainer flex flex-col">
+              <h3 className="experienceSubtitle">
+                Frontend Developer Internship
+              </h3>
+              <h4 className="experienceSecondTitle">
+                Frontend Simplified | Aug 2024 - Oct 2024
+              </h4>
+            </div>
+            <ul className="experienceList ">
+              <li className="flex">
+                Transformed a completely static HTML, CSS, JavaScript and React
+                single page application into an interactive user interface using
+                animations, transitions and carousels
+              </li>
+              <li className="flex">
+                Processed API requests with Axios to dynamically represent data
+                from a cloud server and represented it through skeleton loading
+                states, pagination and dynamic routing
+              </li>
+              <li className="flex">
+                Utilized Git version control and the GitHub interface to work
+                and thrive in a virtual and collaborative team environment
+              </li>
+            </ul>
+            <div className="experienceContainer flex flex-col">
+              <h3 className="experienceSubtitle">
+                Freelance Frontend Developer
+              </h3>
+              <h4 className="experienceSecondTitle">
+                Self Employed | Mar 2024 - Current
+              </h4>
+            </div>
+            <ul className="experienceList ">
+              <li className="flex">
+                Delivered professional websites using HTML5, CSS3 (+ SCSS, BEM),
+                JavaScript and React best practices
+              </li>
+              <li className="flex">
+                Improved website performance by compressing, caching and lazy
+                loading images and components
+              </li>
+              <li className="flex">
+                Included SEO, responsive, multi-platform and hosting support,
+                enabling their website to be used by any browser or device in
+                the world
+              </li>
+            </ul>
+          </section>
           <section className="skillCopy flex flex-col">
             <h3 className="sectionSubheading">Skills</h3>
             <div className="flex skillsBoxHome">

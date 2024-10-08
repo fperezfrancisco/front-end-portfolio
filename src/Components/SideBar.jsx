@@ -92,17 +92,29 @@ function SideBar() {
         </ul>
         <ul className="socialsList flex noList">
           <li className="socialLi">
-            <a href="#" className="socialLink">
+            <a
+              href="https://github.com/fperezfrancisco"
+              target="_blank"
+              className="socialLink"
+            >
               <i className="bx bxl-github"></i>
             </a>
           </li>
           <li className="socialLi">
-            <a href="#" className="socialLink">
+            <a
+              href="https://github.com/fperezfrancisco"
+              target="_blank"
+              className="socialLink"
+            >
               <i className="bx bxl-linkedin-square"></i>
             </a>
           </li>
           <li className="socialLi">
-            <a href="#" className="socialLink">
+            <a
+              href="https://github.com/fperezfrancisco"
+              target="_blank"
+              className="socialLink"
+            >
               <i className="bx bxl-instagram-alt"></i>
             </a>
           </li>
