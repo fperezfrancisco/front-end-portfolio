@@ -624,6 +624,7 @@ a:visited {
 .contactForm {
   row-gap: 1rem;
   margin: 1rem 0rem;
+  max-width: 1300px;
 }
 
 .formList {
@@ -1046,8 +1047,7 @@ a:visited {
 
   .formList {
     list-style-type: none;
-    flex-wrap: wrap;
-    flex-direction: unset;
+    flex-direction: column;
     align-items: flex-start;
     padding: 0;
     margin: 0;
@@ -1108,12 +1108,5 @@ a:visited {
 
   .skillsBoxHome {
     max-width: unset;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .messageLi {
-    max-width: calc(1000px + 1rem);
-    width: 100%;
   }
 }
