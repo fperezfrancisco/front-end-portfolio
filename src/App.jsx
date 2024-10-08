@@ -8,7 +8,7 @@ import data from "./Data";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/front-end-portfolio">
         <Routes>
           <Route path="/" index element={<HomePage projects={data} />} />
           <Route path="/about" element={<AboutPage />} />
